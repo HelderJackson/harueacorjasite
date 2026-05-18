@@ -275,3 +275,26 @@ body {
     object-fit: cover !important;
   }
 }
+
+@media (max-width: 768px) {
+  .redes-integrante,
+  .dados {
+    display: none !important;
+  }
+
+  .integrante-info h2 {
+    font-size: 46px !important;
+    line-height: 1.05 !important;
+    margin-bottom: 10px !important;
+  }
+
+  .funcao {
+    font-size: 20px !important;
+    margin-bottom: 24px !important;
+  }
+
+  .integrante-card {
+    gap: 18px !important;
+    margin-bottom: 70px !important;
+  }
+}
