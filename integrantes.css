@@ -243,3 +243,35 @@ body {
   width: 100%;
   text-align: right;
 }
+
+@media (max-width: 768px) {
+  .integrante-card {
+    grid-template-columns: 1fr !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+    padding: 0 20px !important;
+    gap: 24px !important;
+  }
+
+  .integrante-info {
+    width: 100% !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .integrante-video {
+    width: 300px !important;
+    max-width: 90vw !important;
+    aspect-ratio: 9 / 16 !important;
+    height: auto !important;
+    margin: 0 auto !important;
+  }
+
+  .integrante-video video {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+  }
+}
