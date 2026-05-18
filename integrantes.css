@@ -140,33 +140,71 @@ body {
 }
 
 /* Mobile */
-@media (max-width: 900px) {
+@media (max-width: 768px) {
   .integrantes-page {
-    padding-top: 160px;
+    padding-top: 40px;
+  }
+
+  .integrantes-topo {
+    padding: 50px 20px 60px;
   }
 
   .integrantes-topo h1 {
-    font-size: 48px;
+    font-size: 42px;
   }
 
-  .integrante-card,
-  .integrante-card.invertido {
-    grid-template-columns: 1fr;
-    padding: 0 24px;
+  .integrantes-botoes {
+    gap: 12px;
   }
 
-  .integrante-card.invertido .integrante-info,
-  .integrante-card.invertido .integrante-video {
-    order: initial;
+  .integrantes-botoes a {
+    width: 100%;
+    max-width: 260px;
+    padding: 14px 20px;
   }
 
-  .integrante-info,
-  .integrante-card.invertido .integrante-info {
+  .integrante-card {
+    width: 100%;
+    margin: 0 auto 80px;
+    padding: 0 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .integrante-info {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .integrante-info h2 {
+    font-size: 42px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .funcao {
+    text-align: center;
+    width: 100%;
+  }
+
+  .redes-integrante {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .dados {
     text-align: center;
   }
 
   .integrante-video {
-    height: 420px;
+    width: 100%;
+    max-width: 300px;
+    aspect-ratio: 9 / 16;
+    margin: 0 auto;
   }
 }
 
